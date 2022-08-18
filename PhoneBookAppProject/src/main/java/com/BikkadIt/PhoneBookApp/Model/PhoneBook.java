@@ -15,11 +15,11 @@ import lombok.Setter;
 public class PhoneBook {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer pId;
+	private int pid;
 	@Column(length = 100)
-	private String pName;
-	private String pEmail;
-	private Integer pHNumber;
+	private String pname;
+	private String pemail;
+	private Integer phNumber;
 	
 	
 }
