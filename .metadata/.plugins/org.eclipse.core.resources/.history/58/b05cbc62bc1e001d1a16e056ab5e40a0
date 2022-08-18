@@ -1,0 +1,20 @@
+package com.BikkadIt.PhoneBookApp.Model;
+
+import javax.persistence.Entity;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+@Setter
+@Entity
+@Getter
+@NoArgsConstructor
+public class PhoneBook {
+
+	private Integer pId;
+	private String pName;
+	private String pEmail;
+	private Integer pHNumber;
+	
+	
+}
